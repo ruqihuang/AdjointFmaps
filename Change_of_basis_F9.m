@@ -93,7 +93,7 @@ hold on;
 plot(sort(reshape(error_rmc,[],1))*100,linspace(0,1,nr)*100,'-b','LineWidth',2);
 hold on;
 plot(sort(reshape(error_cb,[],1))*100,linspace(0,1,nr)*100,'-r','LineWidth',2);
-xlim([0, 25]);
+xlim([0, 8]);
 ylim([0, 100]); 
 ylabel('% of Correspondences', 'FontSize',25);
 xlabel('% of Geodesic Error', 'FontSize',25);
