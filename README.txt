@@ -6,8 +6,8 @@ To run this code, just simply run the scripts in the main folder. The '_F[num]',
 Some small Remarks: 
 1) The data we directly load to generate Figure 2 and Figure 3 is produced by the script 'Adjoint_regularization_F1.m'.  
 
-2) Due to some mis-displacement in the early version of the codes, we unfortunately are not able to re-produce exactly Figure 8 in the paper, as we lost the randomly selected pairs of deformed spheres producing the result. However, in the reproduced figure, the relative performance of different methods is similar to those in Figure 8 in the paper. 
+2) Due to some mis-displacement in the early version of the codes, we unfortunately are not able to re-produce exactly Figure 8 in the paper, as we lost the randomly selected pairs of deformed spheres producing the result. However, in the reproduced figure, the relative performance of different methods is similar to that in Figure 8 in the paper. 
 
-3) Due to the discrepancy in how area is computed, the x-axis of Figure 8 and 9 is not consistent with that of the other figures (Figure 1, 10~12), but the relative performance of different methods remain the same. In the code, we rescale the errors in Figure 8 and 9 by a factor of 1/sqrt(6), so that the reprodcued figures are the same as the ones presented in paper. 
+3) Due to the discrepancy in how area is computed, the x-axis of Figure 8 and 9 in the paper is not consistent with that of the other figures (Figure 1, 10~12), but the relative performance of different methods remains the same. In the code, we rescale the errors in Figure 8 and 9 by a factor of 1/sqrt(6), so that the reprodcued figures are the same as the ones presented in paper. 
 
 Please let us know (rqhuang88@gmail.com) if you have any issue implementing this package. 
