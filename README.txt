@@ -1,5 +1,6 @@
 This package contains codes implementing the algorithms introduced in 'Adjoint Map Representation for Shape Analysis and Matching' by Ruqi Huang and Maks Ovsjanikov, SGP 2017. 
 We put all dependencies but CVX (which you should download and install separately) in this package, all the data sets (Triangular meshes) involved are included as well. 
+This package is currently only pre-compiled for Mac OSX operating system, we will try to make it avaiable for other platforms in the future. 
 
 To run this code, just simply run the scripts in the main folder. The '_F[num]', say, '_F1', in the end of each script name indicates which figure in the paper is re-produced by this script. 
 
